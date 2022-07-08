@@ -1,5 +1,5 @@
 {% set name = "types-ujson" %}
-{% set version = "5.3.1" %}
+{% set version = "5.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-ujson-{{ version }}.tar.gz
-  sha256: 64698711b7b5e21a270213aa491ae3a4e2d75406e9536b1d998c259efb8aa416
+  sha256: c6124cadc36e565a90b01213aeec3447f571d9793d177e1653146a3867c81beb
 
 build:
   number: 0
